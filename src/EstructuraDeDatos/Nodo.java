@@ -11,14 +11,14 @@ package EstructuraDeDatos;
 public class Nodo {
     
     private String station;
-    private Simplelist nearStation;
+    private ListaSimple nearStations;
     private Nodo next;
     private boolean hasBranch;
     
     public Nodo(String n){
         this.station = n;
         this.next = null;
-        this.nearStations = new SimpleList;
+        this.nearStations = new ListaSimple();
         this.hasBranch = false;
     }
     
@@ -39,14 +39,14 @@ public class Nodo {
     /**
      * @return the nearStations
      */
-    public SimpleList getNearStations() {
+    public ListaSimple getNearStations() {
         return nearStations;
     }
 
     /**
      * @param nearStations the nearStations to set
      */
-    public void setNearStations(SimpleList nearStations) {
+    public void setNearStations(ListaSimple nearStations) {
         this.nearStations = nearStations;
     }
 
@@ -77,8 +77,4 @@ public class Nodo {
     public void setHasBranch(boolean hasBranch) {
         this.hasBranch = hasBranch;
     }
-
-    
-    
-    
 }
