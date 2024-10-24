@@ -6,8 +6,21 @@ package EstructuraDeDatos;
 
 /**
  *
- * @author sebas
+ * @author aaron
  */
 public class Nodo {
+    
+    private String station;
+    private Simplelist nearStation;
+    private Nodo next;
+    private boolean hasBranch;
+    
+    public Nodo(String n){
+        this.station = n;
+        this.next = null;
+        this.nearStations = new SimpleList;
+        this.hasBranch = false;
+    }
+    
     
 }
