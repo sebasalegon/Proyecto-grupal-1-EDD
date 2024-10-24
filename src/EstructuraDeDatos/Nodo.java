@@ -22,5 +22,63 @@ public class Nodo {
         this.hasBranch = false;
     }
     
+     /**
+     * @return the station
+     */
+    public String getStation() {
+        return station;
+    }
+
+    /**
+     * @param station the station to set
+     */
+    public void setStation(String station) {
+        this.station = station;
+    }
+
+    /**
+     * @return the nearStations
+     */
+    public SimpleList getNearStations() {
+        return nearStations;
+    }
+
+    /**
+     * @param nearStations the nearStations to set
+     */
+    public void setNearStations(SimpleList nearStations) {
+        this.nearStations = nearStations;
+    }
+
+    /**
+     * @return the next
+     */
+    public Nodo getNext() {
+        return next;
+    }
+
+    /**
+     * @param next the next to set
+     */
+    public void setNext(Nodo next) {
+        this.next = next;
+    }
+
+    /**
+     * @return the hasBranch
+     */
+    public boolean isHasBranch() {
+        return hasBranch;
+    }
+
+    /**
+     * @param hasBranch the hasBranch to set
+     */
+    public void setHasBranch(boolean hasBranch) {
+        this.hasBranch = hasBranch;
+    }
+
+    
+    
     
 }
