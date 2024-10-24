@@ -82,5 +82,41 @@ public class Grafo {
             }
         }
     }
+    
+    /**
+     * @return the max_vertex
+     */
+    public int getMax_vertex(){
+        return max_vertex;
+    }
+    
+    /**
+     * @param max_vertex the max_vertex to set
+     */
+    public void setMax_vertex(int max_vertex){
+        this.max_vertex = max_vertex;
+    }
+    
+    /**
+     * @return the number_vertex to set
+     */
+    public int getNumber_vertex(){
+        return number_vertex;
+    }
+    
+    /**
+     * @param number_vertex the number_vertex to set
+     */
+    public void setNumber_vertex(int number_vertex){
+        this.number_vertex = number_vertex;
+    }
+    
+    /**
+     * @return the stations
+     */
+    public Nodo[] getStations(){
+        return stations;
+    }
+    
 }
     
