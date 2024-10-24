@@ -9,7 +9,7 @@ package EstructuraDedDatos;
  * @author sebas
  */
 public class Grafo {
-    class Lista(){
+    class 
         
     }
     
