@@ -118,5 +118,24 @@ public class Grafo {
         return stations;
     }
     
+    /**
+     * @param stations the station to set
+     */
+    public void setStations(Nodo[] stations){
+        this.stations = stations;
+    }
+    /**
+     * @return the t
+     */
+    public int getT(){
+        return t;
+    }
+    
+    /**
+     * @param t the t to set
+     */
+    public void setT(int t){
+        this.t = t;
+    }
 }
     
