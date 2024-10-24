@@ -19,7 +19,7 @@ public class Grafo {
         number_vertex = 0;
         this.stations = new Nodo[max_vertex];
         for (int i=0; i < max_vertex; i++){
-            this.stations[i] = new Nodo(n:"");
+            this.stations[i] = new Nodo("");
         }
         t=3;
         
@@ -27,7 +27,7 @@ public class Grafo {
     
     public void insertStation(String station){
         for (int i = 0; i < getMax_vertex(); i++){
-            if (this..getstations()[i].getStation().equals(anObject:"")){
+            if (this.getStations()[i].getStation().equals(station)){
                 this.getStations()[i].setStation(station);
                 break;
             }
@@ -35,7 +35,7 @@ public class Grafo {
     }
     
     public void setBranch(String station){
-        this.searchStation(station).setHasBranch(hasBranch:true);
+        this.searchStation(station).setHasBranch(true);
     }
     
     public Nodo searchStation(String station){
@@ -53,7 +53,7 @@ public class Grafo {
         
         if(estA != estB && estA != null && estB != null){
             estA.getNearStations().insert(b);
-            estB.getNeatStations().insert(a);
+            estB.getNearStations().insert(a);
         }
     }
     
@@ -61,7 +61,7 @@ public class Grafo {
         visitados[v] = true;
         System.out.println(v);
         if(contador != getT()){
-            for (int=0; i < this.getMax_vertex(); i++){
+            for (int i=0; i < this.getMax_vertex(); i++){
                 if((v !=i)&&(!visitados[i])&&this.getStations()[i].getNearStations().search(this.getStations()[v].getStation()) !=null){
                     auxDFS(i, visitados, contador + 1);
                     
@@ -78,7 +78,7 @@ public class Grafo {
         }
         for (int i=0; i<this.getMax_vertex(); i++){
             if(!visitados[i]){
-                auxDFS(i, visitados, contador:0);
+                this.auxDFS(i, visitados, 0);
             }
         }
     }
