@@ -18,7 +18,7 @@ import EstructuraDeDatos.Grafo;
 
 /**
  *
- * @author Sebas
+ * @author sebas/aaron/jesus
  */
 public class Menu extends javax.swing.JFrame {
 

@@ -8,7 +8,7 @@ import EstructuraDeDatos.Grafo;
 
 /**
  *
- * @author Sebas
+ * @author aaron
  */
 public class Sucursales extends javax.swing.JFrame {
 
