@@ -6,7 +6,7 @@ package EstructuraDeDatos;
 
 /**
  *
- * @author sebas
+ * @author sebas/aaron/jesus
  */
 public class Cola {
 
