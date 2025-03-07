@@ -40,7 +40,7 @@
           <mxGeometry y="252" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="PvyIfSwr3Zg0St1Fx0HK-9" value="Ruta&#xa;" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="790" y="410" width="160" height="252" as="geometry">
+          <mxGeometry x="690" y="410" width="160" height="252" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -136,7 +136,7 @@
           <mxGeometry y="252" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="PvyIfSwr3Zg0St1Fx0HK-54" value="Pago" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="920" y="40" width="160" height="230" as="geometry">
+          <mxGeometry x="960" y="40" width="160" height="230" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -259,6 +259,15 @@
               <mxPoint x="660" y="467" />
               <mxPoint x="660" y="105" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lanSVG-eeSX4AHp7umbX-20" value="Composicion" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PvyIfSwr3Zg0St1Fx0HK-47" target="PvyIfSwr3Zg0St1Fx0HK-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lanSVG-eeSX4AHp7umbX-21" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PvyIfSwr3Zg0St1Fx0HK-9" target="PvyIfSwr3Zg0St1Fx0HK-43">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="600" as="sourcePoint" />
+            <mxPoint x="770" y="550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
